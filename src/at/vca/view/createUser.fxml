@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="340.0" prefWidth="630.0" style="-fx-background-color: #0E0021;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="at.vca.controller.Controller">
+   <children>
+      <Label layoutX="217.0" layoutY="14.0" text="Hello, friend!" textFill="WHITE">
+         <font>
+            <Font name="Georgia Bold" size="30.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="95.0" layoutY="65.0" prefHeight="210.0" prefWidth="440.0" style="-fx-background-color: #19003B; -fx-background-radius: 30;">
+         <children>
+            <Button layoutX="183.0" layoutY="148.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="20.0" prefWidth="30.0" style="-fx-background-color: transparent;" textFill="TRANSPARENT" />
+            <Label layoutX="42.0" layoutY="14.0" text="First name" textFill="WHITE">
+               <font>
+                  <Font name="Georgia Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="246.0" layoutY="14.0" text="Last name" textFill="WHITE">
+               <font>
+                  <Font name="Georgia Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="42.0" layoutY="72.0" text="Username" textFill="WHITE">
+               <font>
+                  <Font name="Georgia Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="246.0" layoutY="72.0" text="E-mail" textFill="WHITE">
+               <font>
+                  <Font name="Georgia Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="45.0" layoutY="126.0" text="Password" textFill="WHITE">
+               <font>
+                  <Font name="Georgia Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="246.0" layoutY="126.0" text="Confirm password" textFill="WHITE">
+               <font>
+                  <Font name="Georgia Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField layoutX="42.0" layoutY="36.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="20.0" prefWidth="172.0">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </TextField>
+            <TextField layoutX="246.0" layoutY="36.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="20.0" prefWidth="172.0">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </TextField>
+            <TextField layoutX="42.0" layoutY="92.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="20.0" prefWidth="172.0">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </TextField>
+            <TextField layoutX="246.0" layoutY="92.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="20.0" prefWidth="172.0">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </TextField>
+            <TextField layoutX="42.0" layoutY="148.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="20.0" prefWidth="172.0">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </TextField>
+            <TextField layoutX="246.0" layoutY="148.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="20.0" prefWidth="172.0">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </TextField>
+            <ImageView disable="true" fitHeight="30.0" fitWidth="20.0" layoutX="195.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@EyeIcon.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="137.0" layoutY="178.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="165.0" style="-fx-background-color: #66B2FF;" text="CREATE ACCOUNT">
+               <font>
+                  <Font name="Georgia Bold" size="12.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="192.0" layoutY="300.0" text="Already haven an account?" textFill="WHITE">
+         <font>
+            <Font name="Georgia" size="12.0" />
+         </font>
+      </Label>
+      <Button layoutX="334.0" layoutY="296.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="23.0" prefWidth="62.0" style="-fx-background-color: transparent;" text="Sign In" textFill="#3333ff">
+         <font>
+            <Font name="Georgia Pro" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
