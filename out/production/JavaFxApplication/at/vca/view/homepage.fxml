@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="340.0" prefWidth="630.0" style="-fx-background-color: #0E0021;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="95.0" layoutY="65.0" prefHeight="210.0" prefWidth="440.0" style="-fx-background-color: #19003B; -fx-background-radius: 30;">
+         <children>
+            <Button layoutX="318.0" layoutY="116.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" style="-fx-background-color: transparent;" />
+            <Button fx:id="button_signIn" layoutX="133.0" layoutY="124.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="165.0" style="-fx-background-color: #66B2FF;" text="SIGN IN">
+               <font>
+                  <Font name="Georgia Bold" size="14.0" />
+               </font>
+            </Button>
+            <ImageView disable="true" fitHeight="20.0" fitWidth="20.0" layoutX="319.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@EyeIcon.jpeg" />
+               </image>
+            </ImageView>
+            <Button fx:id="button_createAccount" layoutX="133.0" layoutY="80.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="165.0" style="-fx-background-color: #66B2FF;" text="CREATE ACCOUNT">
+               <font>
+                  <Font name="Georgia Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label fx:id="label_heading" layoutX="52.0" layoutY="30.0" text="VCA - Virtual Computer Assembler" textFill="WHITE">
+         <font>
+            <Font name="Georgia Bold" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="button_exit" layoutX="14.0" layoutY="300.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="59.0" style="-fx-background-color: #66B2FF;" text="EXIT">
+         <font>
+            <Font name="Georgia Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
